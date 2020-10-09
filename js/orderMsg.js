@@ -13,7 +13,7 @@ function settlement() {
 function deladress(that){
     let addressId = $(that).siblings('div').children('span').text();
     $.ajax({
-        url: 'http://mimall.natapp1.cc/address/deleteAddress',
+        url: 'http://10.168.0.196/address/deleteAddress',
         type: 'get',
         dataType: 'json',
         data: {
@@ -56,7 +56,7 @@ function modifyAdress(that){
         console.log(1);
         console.log(consignee, phone, address);
         $.ajax({
-            url: 'http://mimall.natapp1.cc/address/updateAddress',
+            url: 'http://10.168.0.196/address/updateAddress',
             type: 'get',
             dataType: 'json',
             data : {
@@ -97,7 +97,7 @@ $(function () {
 
     $.ajax({
         type: "get",
-        url: "http://mimall.natapp1.cc/address/selectAddress",
+        url: "http://10.168.0.196/address/selectAddress",
         dataType: "json",
         data: {
             userName: username
@@ -198,7 +198,7 @@ $(function () {
 
         $.ajax({
             type: "get",
-            url: 'http://mimall.natapp1.cc/address/insertAddress',
+            url: 'http://10.168.0.196/address/insertAddress',
             data:{
                 owner, //所属人
                 consignee, //收货人

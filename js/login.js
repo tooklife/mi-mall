@@ -6,7 +6,7 @@ function commit(that) {
     console.log(typeof(username));
     if (username != '' && password != ''){
         $.ajax({
-        	url: 'http://mimall.natapp1.cc/user/login',
+        	url: 'http://10.168.0.196/user/login',
         	type: 'get',
         	dataType: 'json',
         	data: {
@@ -67,7 +67,7 @@ $(function () {
         if (e && e.keyCode == 13) {
             if (username != '' && password != '') {
                 $.ajax({
-                    url: 'http://mimall.natapp1.cc/user/login',
+                    url: 'http://10.168.0.196/user/login',
                     type: 'get',
                     dataType: 'json',
                     data: {

@@ -2,7 +2,7 @@ $(function(){
     // 获取商品 
     $.ajax({
         type: "get",
-        url: "http://mimall.natapp1.cc/selectByUsername",
+        url: "http://10.168.0.196/selectByUsername",
         data: {
             userName : 18814233835,
             orderNumber : 0,

@@ -6,7 +6,7 @@ function Search (that) {
 
     // $.ajax({
     //     type: "get",
-    //     url: "http://mimall.natapp1.cc/selectByProductName",
+    //     url: "http://10.168.0.196/selectByProductName",
     //     data: {
     //         productName: value
     //     },
@@ -140,7 +140,7 @@ $(function () {
 
         $.ajax({
             type: "get",
-            url: "http://mimall.natapp1.cc/user/getShoppingCard",
+            url: "http://10.168.0.196/user/getShoppingCard",
             data: {
                 name: username,
             },
