@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小米账号 - 登录</title>
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../css/cssreset.css">
+	<link rel="stylesheet" href="../css/iconfont/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../js/login.js"></script>
+	<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=9490902eb5b13ba1741b04b894960658">
+	</script>
+</head>
+<body>
+	<header>
+		<img src="../images/mistore_logo.png">
+	</header>
+	<div class="box">
+		<form class="login_msg">
+			<p class="title">
+				<span class="check">账号登录</span>
+				<span>扫码登录</span>
+			</p>
+			<div class="account show">
+				<p><input type="text" name="username" id="username" placeholder="邮箱/手机号/小米账号"></p>
+				<p><input type="password" name="password" id="password"  placeholder="密码"></p>
+				<p><input type="button" value="登录" onclick="commit(this)"></p>
+				<div>
+					<a href="#"><span>忘记密码?</span></a>
+					<a href="./register.html"><span>立即注册</span></a>
+				</div>
+				<div class="otherway">
+					<ul>
+						<li class="line"></li>
+						<li class="text">其他登录方式</li>
+						<li class="line"></li>
+					</ul>
+					<ol>
+						<li>
+							<a href="#" title="QQ登录" class="iconfont icon-QQ"></a>
+						</li>
+						<li>
+							<a href="#" title="微博登录" class="iconfont icon-weibo"></a>
+						</li>
+						<li>
+							<a href="#" title="支付宝登录" class="iconfont icon-zhifubao"></a>
+						</li>
+						<li>
+							<a href="#" title="微信登录" class="iconfont icon-weixin"></a>
+						</li>
+					</ol>
+				</div>
+			</div>
+			
+			<div class="code">
+				<img src="../images/download.png" alt="">
+				<p>使用<a href="">小米商城APP</a>扫一扫</p>
+				<p>小米手机可打开「设置」>「小米帐号」扫码登录</p>
+			</div>
+		</form>
+		
+	</div>
+	<footer>
+		<ul>
+			<li><a href="#">简体</a></li>
+			<li><a href="#">繁体</a></li>
+			<li><a href="#">English</a></li>
+			<li><a href="#">常见问题</a></li>
+			<li><a href="#">隐私政策</a></li>
+		</ul>
+		<p>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</p>
+	</footer>
+</body>
+</html>

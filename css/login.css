@@ -1,0 +1,189 @@
+header{
+	padding: 5px 75px;
+}
+.box{
+	width: 100%;
+	height: 588px;
+	background-image: url('../images/login_bg.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: relative;
+	overflow: hidden;
+}
+.login_msg{
+	position: absolute;
+	right: 50px;
+	top: 40px;
+	background-color: #fff;
+	padding: 30px;
+	width: 400px;
+	height: 600px;
+	box-sizing: border-box;
+}
+.login_msg p{
+	width: 100%;
+}
+.login_msg .title{
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.login_msg .title span{
+	font-size: 23px;
+	color: #747474;
+	padding: 0 30px;
+}
+.login_msg .title span:first-child{
+	border-right: solid 2px #e0e0e0;
+}
+.login_msg .title span.check{
+	color: #f56600;
+}
+input[type="text"],input[type="password"]{
+	width: 100%;
+	padding: 15px;
+	font-size: 14px;
+	color: #666;
+	margin-top: 20px;
+	box-sizing: border-box;
+	outline: none;
+}
+input[type="text"]:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+	border: solid 1px #a9a9a9;
+}
+input[type="button"]{
+	border: none;
+	background-color: #ff6700;
+	width: 100%;
+	margin-top: 25px;
+	height: 43px;
+	color: #fff;
+	font-size: 13px;
+	outline: none;
+	cursor: pointer;
+}
+.login_msg .account {
+	margin-top: 8px;
+}
+.login_msg .account div{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.login_msg .account span {
+	float: right;
+	font-size: 13px;
+	color: #999;
+	padding: 0 8px;
+}
+.login_msg .account span:hover{
+	color: #ff6700;
+}
+.login_msg .account a:last-child span {
+	border-right: solid 1px #747474;
+
+}
+.login_msg .account .otherway{
+	margin-top: 120px;
+	text-align: center;
+}
+.login_msg .account .otherway ul{
+	overflow: hidden;
+	
+}
+.login_msg .account .otherway ul li{
+	float: left;
+}
+.login_msg .account .otherway ul li.line{
+	margin-top: 8px;
+	width: 38%;
+	height: 0;
+	border-top: solid 1px #ccc;
+}
+.login_msg .account .otherway ul li.text{
+	font-size: 13px;
+	color: #ccc;
+	vertical-align: middle;
+}
+.login_msg .account .otherway ol{
+	display: inline-block;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.login_msg .account .otherway ol li{
+	float: left;
+	padding: 0 16px;
+	text-align: center;
+}
+.login_msg .account .otherway ol li a{
+	font-size: 30px;
+	color: #fff;
+}
+.icon-QQ:before{
+	color: #0288d1;
+	background: #fff;
+}
+.icon-weibo:before{
+	color: #d32f2f;
+}
+.icon-zhifubao:before{
+	color: #0ae
+}
+.icon-weixin:before{
+	color: #00d20d;
+}
+.login_msg .code{
+	text-align: center;
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+.login_msg .code img{
+	margin-bottom: 10px;
+}
+.login_msg .code p{
+	font-size: 14px;
+	color: #757575;
+}
+.login_msg .code p a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #ff6700;
+}
+.login_msg>div{
+	display: none;
+}
+.login_msg>div.show{
+	display: block;
+}
+footer{
+	margin-top: 100px;
+	text-align: center;
+	color: #757575;
+}
+footer ul{
+	display: inline-block;
+}
+footer li{
+	float: left;
+	padding: 0 20px;
+	border-right: solid 1px #999;
+	line-height: 12px
+}
+footer li:last-child{
+	border-right: none;
+}
+footer li a{
+	color: #757575;
+	font-size: 12px;
+	text-decoration: none;
+}
+footer ul::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+footer p{
+	margin:15px 0;
+	font-size: 13px;
+}

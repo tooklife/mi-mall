@@ -1,0 +1,87 @@
+html{
+    overflow: hidden;
+}
+.box{
+    padding: 50px;
+}
+
+
+.box .title h1 {
+    font-size: 30px;
+    display: inline-block;
+    color: #757575;
+    margin-right: 8px;
+}
+
+.box .title span {
+    font-size: 12px;
+    color: #757575;
+}
+
+.box .title span a {
+    font-size: 12px;
+    color: #757575;
+    text-decoration: none;
+}
+
+.box .title span a:hover {
+    text-decoration: underline;
+}
+
+.box nav{
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+.box nav ul{
+    overflow: hidden;
+}
+.box nav ul li{
+    float: left;
+    padding: 0 20px;
+    border-right: solid 1px #e0e0e0;
+    color: #757575;
+    font-size: 16px;
+}
+.box nav ul li:first-child{
+    padding-left: 0;
+}
+.box nav ul li:last-child{
+    border-right: none;
+}
+
+.box .search {
+    width: 280px;
+    height: 50px;
+    display: inline-block;
+    float: right;
+}
+
+.box  .sea_content,
+.box  .sea_btn {
+    float: left;
+    border: solid 1px #ccc;
+}
+
+.box  .sea_content {
+    width: 210px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    font-size: 14px;
+    border-right: none;
+}
+
+.box  .search input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.box  .sea_btn {
+    width: 55px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-style: normal;
+}

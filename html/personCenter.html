@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/cssreset.css">
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/personCenter.css">
+    <script src="../js/jquery-1.9.1.min.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <ul class="left">
+            <li><a href="index.html">小米商城</a></li>
+            <li><a href="#">MIUI</a></li>
+            <li><a href="#">IoT</a></li>
+            <li><a href="#">云服务</a></li>
+            <li><a href="#">金融</a></li>
+            <li><a href="#">有品</a></li>
+            <li><a href="#">小爱开放平台</a></li>
+            <li><a href="#">企业团购</a></li>
+            <li><a href="#">资质证照</a></li>
+            <li><a href="#">协议规则</a></li>
+            <li><a href="#">下载app</a></li>
+        </ul>
+        <ul class="right">
+            <li><a href="./html/login.html">登录</a></li>
+            <li><a href="./html/register.html">注册</a></li>
+            <li><a href="#">消息通知</a></li>
+            <li><a href="#">购物车</a></li>
+        </ul>
+    </header>
+
+    <div class="box">
+        <div class="top">
+            <div class="left">
+                <div class="logo">
+                    <ul>
+                        <li>
+                            <img src="../images/mi-home.png" alt="">
+                        </li>
+                        <li>
+                            <img src="../images/mi-logo.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <ul class="first_list">
+                    <li>
+                        小米手机
+                        <ul class="second_list">
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Redmi红米
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        电视
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        笔记本
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        家电
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        路由器
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        智能硬件
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        服务
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        社区
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="search">
+                <div class="sea_content">
+                    <input type="text" placeholder="请输入搜索的产品">
+                </div>
+                <div class="sea_btn">
+                    <i class="iconfont icon-sousuo"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="location">首页<span>&gt;</span>个人中心</div>
+
+        <table cellspacing="3" >
+            <tr>
+                <td>
+                    <dl>
+                        <dt>订单中心</dt>
+                        <dd><span onclick="changeLink('./myOrder.html')">我的订单</span></dd>
+                        <dd><span>团购订单</span></dd>
+                        <dd><span onclick="changeLink('./evaluation.html')">评价晒单</span></dd>
+                        <dd><span>话费充值订单</span></dd>
+                        <dd><span>以旧换新订单</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>个人中心</dt>
+                        <dd><span onclick="changeLink('./myPersonCenter.html')">我的个人中心</span></dd>
+                        <dd><span>消息通知</span></dd>
+                        <dd><span>购买资格</span></dd>
+                        <dd><span>现金账户</span></dd>
+                        <dd><span>小米礼品卡</span></dd>
+                        <dd><span>现金券</span></dd>
+                        <dd><span onclick="changeLink('./myFavorite.html')">喜欢的商品</span></dd>
+                        <dd><span>优惠券</span></dd>
+                        <dd><span onclick="changeLink('./adress.html')">收货地址</span></dd>
+                        <dd><span>红包</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd><span>服务记录</span></dd>
+                        <dd><span>申请服务</span></dd>
+                        <dd><span>领取快递报销</span></dd>
+                    </dl>
+                    <dl>
+                        <dt>账户管理</dt>
+                        <dd><span>个人信息</span></dd>
+                        <dd><span>修改密码</span></dd>
+                    </dl>
+                </td>
+                <td>
+                    <div>
+                        <iframe src="./myPersonCenter.html" id="urlIframe" width="100%" height="100%" frameborder="0"
+                            scrolling="no" ></iframe>
+                    </div>
+                    
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="bottom"></div>
+
+    <footer>
+    </footer>
+
+    <script src="../js/personCenter.js"></script>
+</body>
+
+</html>

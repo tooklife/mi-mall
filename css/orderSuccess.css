@@ -1,0 +1,322 @@
+body {
+    background-color: #f5f5f5;
+    padding-bottom: 5px;
+    font-family: "Microsoft YaHei",
+        "Arial",
+        "Helvetica",
+        "sans-serif";
+}
+
+.top {
+    height: 100px;
+    border-bottom: solid #f60 2px;
+    background-color: #fff;
+    margin-bottom: 35px;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+
+.top .top_box {
+    width: 1250px;
+    margin: 0 auto;
+
+}
+
+.top .logo {
+    width: 48px;
+    height: 48px;
+    margin-right: 30px;
+    display: inline-block;
+    background-color: #f60;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    vertical-align: -70%;
+}
+
+.top .logo ul {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    left: -46px;
+    top: 0;
+}
+
+.top .logo ul li {
+    width: 45px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+}
+
+.top .top_box h2 {
+    display: inline-block;
+    font-size: 28px;
+    margin: 0 13px;
+}
+
+
+.cbox {
+    width: 1260px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.cbox .icon {
+
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.cbox .icon i {
+    font-size: 80px;
+    color: #84c54d;
+}
+
+.cbox .info {
+    display: inline-block;
+    width: 90%;
+}
+
+.cbox .info::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.cbox .info .cleft {
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.cbox .info .cleft h2 {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.cbox .info .cleft p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.cbox .info .cleft span {
+    color: red;
+}
+
+.cbox .info .cright {
+    float: right;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.cbox .info .cright span {
+    font-size: 14px;
+}
+
+.cbox .info .cright>i {
+    font-size: 14px;
+    color: red;
+    font-style: normal;
+}
+
+.cbox .info .cright i b {
+    font-size: 23px;
+    font-weight: 520;
+}
+
+.cbox .info .cright div {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.cbox .info .infobt {
+    float: left;
+    margin-left: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    border-top: solid 1px #ccc;
+    width: 97%;
+    display: none;
+}
+
+.cbox .info .infobt table {
+    font-size: 14px;
+}
+
+.infobt table tr td {
+    padding: 8px 0;
+}
+
+.infobt table tr .orderattr {
+    width: 85px;
+}
+
+.infobt table tr .ordernum {
+    color: red;
+}
+
+.infobt table tr .goodsname {
+    padding-top: 9px;
+    vertical-align: top;
+}
+
+.infobt table tr ul li {
+    margin-bottom: 5px;
+}
+
+.pway {
+    width: 1250px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+.pway h3 {
+    color: #424242;
+    font-size: 18px;
+    padding: 25px 0;
+    border-bottom: solid 1px #ccc;
+}
+
+.pway dl {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.pway dl dt {
+    font-size: 16px;
+    color: #616161;
+    font-family: "sans-serif";
+    margin-bottom: 10px;
+}
+.pway dl dd{
+    float: left;
+    border: solid 1px #e0e0e0;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    width: 174px;
+    height: 60px;
+    overflow: hidden;
+    transition: all .4s ease;
+}
+.pway dl dd span{
+    display: none;
+}
+.pway dl dd:hover{
+    border-color: #f60;
+    
+}
+.pway .mipay{
+    background-color: #fafafa;
+    padding: 20px;
+    border: solid 1px #e0e0e0;
+    font-size: 12px;
+    width: 894px;
+    color: #757575;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.pway .mipay span{
+    float: left;
+}
+.pway .mipay a{
+    float: right;
+    color: #757575;
+    text-decoration: none;
+}
+.pway .mipay a:hover{
+    color: #f60;
+}
+.trademark{
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 60px;
+}
+.trademark a{
+    text-decoration: none;
+    color: #333;
+}
+.trademark ul{
+    padding: 45px 0;
+    border-bottom: solid 1px #999;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.trademark ul li{
+    float: left;
+    width: 19.8%;
+    text-align: center;
+    border-right: solid 1px #999;
+}
+.trademark ul li i{
+    font-size: 26px;
+}
+.trademark ul li:last-child{
+    border: none;
+}
+.trademark .links{
+    margin-top: 40px;
+    overflow: hidden;
+}
+.trademark .links ol{
+    overflow: hidden;
+    border-right: solid 1px #999;
+    float: left;
+}
+.trademark .links ol li{
+    float: left;
+    width: 160px;
+}
+.trademark .links dt{
+    padding: 20px 0;
+    padding-top: 0;
+    font-size: 14px;
+}
+.trademark .links dd{
+    font-size: 12px;
+    padding: 5px 0;
+}
+.ctctDetails{
+    width: 230px;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.ctctDetails h4{
+    color: #f60;
+    font-size: 20px;
+    font-weight: 500;
+}
+.ctctDetails p{
+    font-size: 13px;
+    color: #666;
+}
+.ctctDetails .person{
+    display: inline-block;
+    font-size: 12px;
+    color: #f60;
+    border: solid 1px #f60;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.ctctDetails i{
+    font-size: 12px;
+}

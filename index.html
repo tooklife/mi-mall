@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>小米商城</title>
+	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="./css/cssreset.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" href="./css/iconfont/iconfont.css">
+	<script src="./js/jquery-1.9.1.min.js"></script>
+	<script src="./js/index.js"></script>
+	<!-- <script type="text/javascript" src="http://api.map.baidu.com/location/ip?ak=PRjY5vPlbXV6tHV1AqOD4Y6duCMwv3ib&coor=bd09ll"></!--> 
+</head>
+
+<body>
+	<header>
+		<div>
+			<ul class="left">
+				<li><a href="index.html">小米商城</a></li>
+				<li><a href="#">MIUI</a></li>
+				<li><a href="#">IoT</a></li>
+				<li><a href="#">云服务</a></li>
+				<li><a href="#">金融</a></li>
+				<li><a href="#">有品</a></li>
+				<li><a href="#">小爱开放平台</a></li>
+				<li><a href="#">企业团购</a></li>
+				<li><a href="#">资质证照</a></li>
+				<li><a href="#">协议规则</a></li>
+				<li><a href="#">下载app</a></li>
+				<li><a href="#">Select Location</a></li>
+			</ul>
+
+			<div class="loginmsg">
+				<div class="shortcar">
+					<i class="iconfont icon-gouwuche2"></i>
+					<b>购物车</b>
+					<span>(0)</span>
+					<div class="shortlist">
+						<p>购物车中还没有商品，赶紧选购吧</p>
+						<ul></ul>
+					</div>
+				</div>
+				<ul class="right">
+					<li><a href="./html/login.html">登录</a></li>
+					<li><a href="./html/register.html">注册</a></li>
+					<li><a href="#">消息通知</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</header>
+	<div class="body">
+
+		<div class="top">
+			<div class="left">
+				<div class="logo">
+					<ul>
+						<li>
+							<img src="./images/mi-home.png" alt="">
+						</li>
+						<li>
+							<img src="./images/mi-logo.png" alt="">
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="nav">
+				<ul class="first_list">
+					<li>
+						小米手机
+						<ul class="second_list">
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						Redmi红米
+						<ul>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						电视
+						<ul>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						笔记本
+						<ul>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						家电
+						<ul>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						路由器
+						<ul>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						智能硬件
+						<ul>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						服务
+						<ul>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						社区
+						<ul>
+							<li></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="search">
+				<div class="sea_content">
+					<input type="text" placeholder="请输入搜索的产品">
+				</div>
+				<div class="sea_btn" onclick="Search(this)">
+					<i class="iconfont icon-sousuo"></i>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="banner_y center">
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="">手机</a>
+						<a href="">电话卡</a>
+						<i class="iconfont icon-icon_on_the_right"></i>
+						<div class="pop">
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9Pro3.jpg" alt="">
+									<span>小米CC9 Pro</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/heisha3.jpg" alt="">
+									<span>腾讯黑鲨游戏手机3</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/mi10Pro.jpg" alt="">
+									<span>小米10 Pro</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/RedmiK30.jpg" alt="">
+									<span>Redmi K30</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/mi10.jpg" alt="">
+									<span>小米10</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/RedmiNote8.png" alt="">
+									<span>Redmi Note 8 Pro</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/Rendmi8.jpg" alt="">
+									<span>Redmi 8</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/MI9par5G.jpg" alt="">
+									<span>小米9 Pro 5G</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/RendmiNote8_2.jpg" alt="">
+									<span>Redmi Note 8</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+                            </ol>
+                            <ol>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>Redmi Note 8</span>
+                                </li>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>Redmi 8</span>
+                                </li>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>小米CC9</span>
+                                </li>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>小米CC9</span>
+                                </li>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>小米CC9</span>
+                                </li>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>小米CC9</span>
+                                </li>
+                            </ol>
+                            <ol>
+                                <li onclick="getName(this)">
+                                    <img src="./images/RedmiNote8.png" alt="">
+                                    <span>Redmi Note 8</span>
+                                </li>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>小米CC9</span>
+                                </li>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>小米CC9</span>
+                                </li>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>小米CC9</span>
+                                </li>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>小米CC9</span>
+                                </li>
+                                <li onclick="getName(this)">
+                                    <img src="./images/miCC9_3.jpg" alt="">
+                                    <span>小米CC9</span>
+                                </li>
+                            </ol>
+						</div>
+					</li>
+					<li>
+						<a href="">电视</a>
+						<a href="">盒子</a>
+						<i class="iconfont icon-icon_on_the_right"></i>
+						<div class="pop">
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+							</ol>
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									小米CC9
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<a href="">笔记本</a>
+						<a href="">显示器</a>
+						<i class="iconfont icon-icon_on_the_right"></i>
+						<div class="pop">
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<a href="">家电</a>
+						<a href="">插线板</a>
+						<i class="iconfont icon-icon_on_the_right"></i>
+						<div class="pop">
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<a href="">出行</a>
+						<a href="">穿戴</a>
+						<i class="iconfont icon-icon_on_the_right"></i>
+						<div class="pop">
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<a href="">智能</a>
+						<a href="">路由器</a>
+						<i class="iconfont icon-icon_on_the_right"></i>
+						<div class="pop">
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<a href="">电源</a>
+						<a href="">配件</a>
+						<i class="iconfont icon-icon_on_the_right"></i>
+						<div class="pop">
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<a href="">健康</a>
+						<a href="">儿童</a>
+						<i class="iconfont icon-icon_on_the_right"></i>
+						<div class="pop">
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<a href="">耳机</a>
+						<a href="">音响</a>
+						<i class="iconfont icon-icon_on_the_right"></i>
+						<div class="pop">
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+						</div>
+					</li>
+					<li>
+						<a href="">生活</a>
+						<a href="">箱包</a>
+						<i class="iconfont icon-icon_on_the_right"></i>
+						<div class="pop">
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+							<ol>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+								<li onclick="getName(this)">
+									<img src="./images/miCC9_3.jpg" alt="">
+									<span>小米CC9</span>
+								</li>
+							</ol>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="sub_banner center">
+			<div class="sidebar fl">
+				<div class="fl"><a href=""><img src="./images/hjh_01.gif"></a></div>
+				<div class="fl"><a href=""><img src="./images/hjh_02.gif"></a></div>
+				<div class="fl"><a href=""><img src="./images/hjh_03.gif"></a></div>
+				<div class="fl"><a href=""><img src="./images/hjh_04.gif"></a></div>
+				<div class="fl"><a href=""><img src="./images/hjh_05.gif"></a></div>
+				<div class="fl"><a href=""><img src="./images/hjh_06.gif"></a></div>
+				<div class="clear"></div>
+			</div>
+			<div class="datu fl"><a href="javascript:;">小米CC9 Pro<img src="./images/nav1.jpg" alt=""></a></div>
+			<div class="datu fl"><a href="javascript:;">Redmi Note 8<img src="./images/nav2.jpg" alt=""></a></div>
+			<div class="datu fr"><a href="javascript:;">小米CC9<img src="./images/nav3.jpg" alt=""></a></div>
+			<div class="clear"></div>
+
+
+		</div>
+
+		<div class="snapUp">
+			<div class="snapUpBox">
+				<p>
+					<span class="snapUpLeft">小米闪购</span>
+					<span class="snapUpRight">按钮</span>
+				</p>
+				<div class="contenLeft">
+					<h4>14:00场</h4>
+					<p>距离结束还有</p>
+				</div>
+				<div class="contentRight">
+					<ol>
+			            <li>
+			                <img src="./images/saodi.jpg">
+			                <p class="name">米家扫地机器人</p>
+			                <p class="equipped">智商高，扫得干净扫得快</p>
+			                <p class="price">1295元 <del>4699元</del></p>
+			            </li>
+			            <li>
+			                <img src="./images/saodi.jpg">
+			                <p class="name">米家扫地机器人</p>
+			                <p class="equipped">智商高，扫得干净扫得快</p>
+			                <p class="price">1295元 <del>4699元</del></p>
+			            </li>
+			            <li>
+			                <img src="./images/saodi.jpg">
+			                <p class="name">米家扫地机器人</p>
+			                <p class="equipped">智商高，扫得干净扫得快</p>
+			                <p class="price">1295元 <del>4699元</del></p>
+			            </li>
+			            <li>
+			                <img src="./images/saodi.jpg">
+			                <p class="name">米家扫地机器人</p>
+			                <p class="equipped">智商高，扫得干净扫得快</p>
+			                <p class="price">1295元 <del>4699元</del></p>
+			            </li>
+			        </ol>
+				</div>
+			</div>
+		</div>
+		<div class="banner3">
+			<img src="./images/banner3.jpg">
+		</div>
+		<div class="phone">
+			<div class="phonebox">
+
+				<p>
+					<span class="phoneLeft">手机</span>
+					<span class="phoneRight">查看全部 <i></i></span>
+				</p>
+				<div class="contenLeft">
+					<img src="./images/alpha.jpg">
+				</div>
+				<div class="contentRight">
+					<ul>
+			            <li>
+			                <img src="./images/mi10.jpg">
+			                <p class="name">小米10</p>
+			                <p class="equipped">骑龙865/1亿乙像素相机</p>
+			                <p class="price">3999元起</p>
+			            </li>
+			            <li>
+			                <img src="./images/miCC9Pro3.jpg">
+			                <p class="name">小米CC9 Pro</p>
+			                <p class="equipped">骑龙865/1亿乙像素相机</p>
+			                <p class="price">2799元起</p>
+			            </li>
+			            <li>
+			                <img src="./images/RendmiNote8_2.jpg">
+			                <p class="name">Redmi Note 8</p>
+			                <p class="equipped">骑龙865/1亿乙像素相机</p>
+			                <p class="price">999元起</p>
+			            </li>
+			            <li>
+			                <img src="./images/mi10Pro.jpg">
+			                <p class="name">小米10 Pro</p>
+			                <p class="equipped">骑龙865/1亿乙像素相机</p>
+			                <p class="price">5999元起</p>
+			            </li>
+			            <li>
+			                <img src="./images/Rendmi8.jpg">
+			                <p class="name">Redmi 8</p>
+			                <p class="equipped">骑龙865/1亿乙像素相机</p>
+			                <p class="price">699元起</p>
+			            </li>
+			            <li>
+			                <img src="./images/MI9par5G.jpg">
+			                <p class="name">小米9 Pro 5G</p>
+			                <p class="equipped">骑龙865/1亿乙像素相机</p>
+			                <p class="price">3799元起</p>
+			            </li>
+			            <li>
+			                <img src="./images/RedmiK30.jpg">
+			                <p class="name">Redmi K30</p>
+			                <p class="equipped">骑龙865/1亿乙像素相机</p>
+			                <p class="price">1699元起</p>
+			            </li>
+			            <li>
+			                <img src="./images/heisha3.jpg">
+			                <p class="name">腾讯黑鲨游戏手机3</p>
+			                <p class="equipped">骑龙865/1亿乙像素相机</p>
+			                <p class="price">3499元起</p>
+			            </li>
+			        </ul>
+				</div>
+			</div>
+		</div>
+		<div class="banner4">
+			<img src="./images/banner4.jpg">
+		</div>
+	</div>
+
+	<footer></footer>
+
+
+</body>
+
+</html>

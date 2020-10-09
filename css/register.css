@@ -1,0 +1,96 @@
+body{
+	background-color: #f9f9f9;
+	padding: 20px 0;
+}
+.box{
+	width: 850px;
+	height: 550px;
+	margin: 0 auto;
+	background-color: #fff;
+	position: relative;
+}
+.box .logo{
+	text-align: center;
+}
+.box h2 {
+	font-size: 30px;
+	text-align: center;
+	margin: 30px 0;
+}
+.box form {
+	width: 350px;
+	margin: 0 auto;
+}
+.box form div{
+	margin-top: 15px;
+	font-size: 13px;
+}
+.box form span{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	color: #666;
+	box-sizing: border-box;
+	outline: none;
+}
+input[type="button"]{
+	border: none;
+	background-color: #ff6700;
+	width: 100%;
+	margin-top: 25px;
+	height: 43px;
+	color: #fff;
+	font-size: 13px;
+	outline: none;
+}
+.box>p{
+	width: 350px;
+	font-size: 13px;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -175px;
+	text-align: center;
+	color: #757575;
+}
+.box>p a{
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+footer{
+	margin-top: 25px;
+	text-align: center;
+	color: #757575;
+}
+footer ul{
+	display: inline-block;
+}
+footer li{
+	float: left;
+	padding: 0 20px;
+	border-right: solid 1px #999;
+	line-height: 12px
+}
+footer li:last-child{
+	border-right: none;
+}
+footer li a{
+	color: #757575;
+	font-size: 12px;
+	text-decoration: none;
+}
+footer ul::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+footer p{
+	margin:10px 0;
+	font-size: 13px;
+}

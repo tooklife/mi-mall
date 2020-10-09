@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>填写订单信息</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/cssreset.css">
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/orderMsg.css">
+    <script src="../js/jquery-1.9.1.min.js"></script>
+    <script src="../js/orderMsg.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="top_box">
+            <div class="logo">
+                <ul>
+                    <li>
+                        <img src="../images/mi-home.png" alt="">
+                    </li>
+                    <li>
+                        <img src="../images/mi-logo.png" alt="">
+                    </li>
+                </ul>
+            </div>
+
+            <h2>确认订单</h2>
+
+
+        </div>
+    </div>
+
+    <div class="content">
+        <table>
+            <tr>
+                <td>
+                    <h3>收货地址</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul class="adresslist">
+                        <li>
+                            <div class="adress">
+                                <div>
+                                    <i class="iconfont icon-jiahao"></i>
+                                    <i>添加新地址</i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>商品及优惠券</h3>
+                </td>
+            </tr>
+            <tr class="order_list">
+                <td>
+                    <ul>
+                    </ul>
+                </td>
+            </tr>
+            <tr class="distribution">
+                <td>
+                    <h3>配送方式</h3>
+                    <span>包邮</span>
+                </td>
+            </tr>
+            <tr class="invoice">
+                <td>
+                    <h3>发票</h3>
+                    <span>电子发票</span>
+                    <span>个人</span>
+                    <span>商品明细</span>
+                    <a href="#">修改&gt;</a>
+                </td>
+            </tr>
+        </table>
+        <div class="box">
+            <div class="coupon">
+                <ol>
+                    <li>
+                        <i class="iconfont icon-jiahao"></i>
+                        <span>使用优惠券</span>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-jiahao"></i>
+                        <span>使用小米礼品卡</span>
+                    </li>
+                </ol>
+            </div>
+            <div class="account">
+                <ul>
+                    <li>
+                        <i>商品件数：</i>
+                        <span id="count">1件</span>
+                    </li>
+                    <li>
+                        <i>商品总价：</i>
+                        <span class="prclist">799元</span>
+                    </li>
+                    <li>
+                        <i>活动优惠：</i>
+                        <span>-0元</span>
+                    </li>
+                    <li>
+                        <i>优惠券减扣：</i>
+                        <span>-0元</span>
+                    </li>
+                    <li>
+                        <i>运费：</i>
+                        <span>0元</span>
+                    </li>
+                    <li>
+                        <i>应付总额：</i>
+                        <span><b id="allprc"></b>元</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="pay">
+        <button onclick="window.history.back();">返回购物车</button>
+        <button onclick="settlement()">去结算</button>
+    </div>
+
+    <div class="widget widget1" id="window" hidden="hidden">
+        <div class="body">
+            <div class="top">
+                <span class="title">添加收货地址</span>
+                <span class="close">
+                    <i class="iconfont icon-guanbi"></i>
+                </span>
+
+            </div>
+            <div class="container">
+                <input type="text" class="name" name="" placeholder="姓名">
+                <input type="text" class="phonenumber" name="" placeholder="手机号">
+                <textarea class="adressdetail" placeholder="详细地址"></textarea>
+
+                <input type="text" class="tag" name="" placeholder="地址标签">
+            </div>
+            <p class="bottom">
+                <button class="save">保存</button>
+                <button class="cancle">取消</button>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="widget widget1" id="edtAdress" hidden="hidden">
+        <div class="body">
+            <div class="top">
+                <span class="title">修改收货地址</span>
+                <span class="close">
+                    <i class="iconfont icon-guanbi"></i>
+                </span>
+
+            </div>
+            <div class="container">
+                <input type="text" class="name" name="" placeholder="姓名">
+                <input type="text" class="phonenumber" name="" placeholder="手机号">
+                <textarea class="adressdetail" placeholder="详细地址"></textarea>
+
+                <input type="text" class="tag" name="" placeholder="地址标签">
+            </div>
+            <p class="bottom">
+                <button class="determine">确定</button>
+                <button class="cancle">取消</button>
+            </p>
+        </div>
+    </div>
+
+    
+
+    <div class="trademark">
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-banshou"></i>
+                    <span>预约维修服务</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-7tianwuliyoutuihuo"></i>
+                    <span>7天无理由退货</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-15tianwuliyoutuihuo"></i>
+                    <span>15天免费换货</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-lipin"></i>
+                    <span>满99元包邮</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="iconfont icon-dingwei-xianxing"></i>
+                    <span>520余家售后网点</span>
+                </a>
+            </li>
+        </ul>
+        <div class="links">
+            <ol>
+                <li>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="#">账户管理</a></dd>
+                        <dd><a href="#">购物指南</a></dd>
+                        <dd><a href="#">订单操作</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>服务支持</dt>
+                        <dd><a href="#">售后政策</a></dd>
+                        <dd><a href="#">自助服务</a></dd>
+                        <dd><a href="#">相关下载</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>线下门店</dt>
+                        <dd><a href="#">账户管理</a></dd>
+                        <dd><a href="#">购物指南</a></dd>
+                        <dd><a href="#">订单操作</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>关于小米</dt>
+                        <dd><a href="#">了解小米</a></dd>
+                        <dd><a href="#">加入小米</a></dd>
+                        <dd><a href="#">投资者关系</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>关注我们</dt>
+                        <dd><a href="#">新浪微博</a></dd>
+                        <dd><a href="#">官方微信</a></dd>
+                        <dd><a href="#">联系我们</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>特色服务</dt>
+                        <dd><a href="#">F码通道</a></dd>
+                        <dd><a href="#">礼物码</a></dd>
+                        <dd><a href="#">防伪查询</a></dd>
+                    </dl>
+                </li>
+            </ol>
+            <div class="ctctDetails">
+                <h4>400-100-5678</h4>
+                <p>周一至周日8:00-8:00</p>
+                <p>仅收市话费</p>
+
+                <div class="person">
+                    <i class="iconfont icon-rengongkefu"></i>
+                    <span>人工客服</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
