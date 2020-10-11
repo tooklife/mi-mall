@@ -38,7 +38,7 @@ function addShortcar() {
     }else{
         $.ajax({
             type: "get",
-            url: "http://10.168.0.196/user/addShoppingCart",
+            url: "http://localhost:10086/user/addShoppingCart",
             data: {
                 name: name,
                 productName: productname,
@@ -79,7 +79,7 @@ $(function () {
     `)
     $.ajax({
         type: "get",
-        url: "http://10.168.0.196/product/selectByProductName",
+        url: "http://localhost:10086/product/selectByProductName",
         data: {
             productName: orderName
         },
@@ -101,7 +101,7 @@ $(function () {
 
             $('.order_pic ul').append(`
                     <li>
-                        <img src="http://10.168.0.196/picture/${res.picture1}">
+                        <img src="http://localhost:10086/picture/${res.picture1}">
                     </li>
                 `)
 

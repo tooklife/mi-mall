@@ -52,7 +52,7 @@ function userPay(that) {
     console.log(JSON.stringify(obj));
     $.ajax({
         type: "post",
-        url: "http://10.168.0.196/order/insertOrder",
+        url: "http://localhost:10086/order/insertOrder",
         data: JSON.stringify(obj),
         contentType: "application/json",
         dataType: "json",
