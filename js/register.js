@@ -5,7 +5,7 @@ function commit(that) {
     let password = $(that).siblings('div').eq(2).children('input').val();
     console.log(username, nickname, password);
 	$.ajax({
-		url: 'http://localhost:10086/user/register',
+		url: 'http://sdfsdfsdf.xyz/user/register',
 		type: 'post',
 		dataType: 'json',
 		data: {
@@ -54,7 +54,7 @@ $(function(){
         if (e && e.keyCode == 13) {
             console.log('1');
             $.ajax({
-                url: 'http://localhost:10086/user/register',
+                url: 'http://sdfsdfsdf.xyz/user/register',
                 type: 'post',
                 dataType: 'json',
                 data: {

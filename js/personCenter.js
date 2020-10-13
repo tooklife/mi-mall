@@ -90,7 +90,7 @@ $(function () {
 
         $.ajax({
             type: "get",
-            url: "http://localhost:10086/user/getShoppingCard",
+            url: "http://sdfsdfsdf.xyz/user/getShoppingCard",
             data: {
                 name: username,
             },

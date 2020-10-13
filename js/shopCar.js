@@ -34,7 +34,7 @@ function del(that) {
 
     $.ajax({
         type: "get",
-        url: "http://localhost:10086/user/removeShoppingCard",
+        url: "http://sdfsdfsdf.xyz/user/removeShoppingCard",
         data: {
             key: rel
         },
@@ -138,7 +138,7 @@ $(function () {
 
     $.ajax({
         type: "get",
-        url: "http://localhost:10086/user/getShoppingCard",
+        url: "http://sdfsdfsdf.xyz/user/getShoppingCard",
         data: {
             name: name,
         },

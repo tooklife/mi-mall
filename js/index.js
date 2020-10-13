@@ -6,7 +6,7 @@ function Search (that) {
 
     // $.ajax({
     //     type: "get",
-    //     url: "http://localhost:10086/selectByProductName",
+    //     url: "http://sdfsdfsdf.xyz/selectByProductName",
     //     data: {
     //         productName: value
     //     },
@@ -140,7 +140,7 @@ $(function () {
 
         $.ajax({
             type: "get",
-            url: "http://localhost:10086/user/getShoppingCard",
+            url: "http://sdfsdfsdf.xyz/user/getShoppingCard",
             data: {
                 name: username,
             },

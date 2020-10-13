@@ -13,7 +13,7 @@ function settlement() {
 function deladress(that){
     let addressId = $(that).siblings('div').children('span').text();
     $.ajax({
-        url: 'http://localhost:10086/address/deleteAddress',
+        url: 'http://sdfsdfsdf.xyz/address/deleteAddress',
         type: 'get',
         dataType: 'json',
         data: {
@@ -56,7 +56,7 @@ function modifyAdress(that){
         console.log(1);
         console.log(consignee, phone, address);
         $.ajax({
-            url: 'http://localhost:10086/address/updateAddress',
+            url: 'http://sdfsdfsdf.xyz/address/updateAddress',
             type: 'get',
             dataType: 'json',
             data : {
@@ -97,7 +97,7 @@ $(function () {
 
     $.ajax({
         type: "get",
-        url: "http://localhost:10086/address/selectAddress",
+        url: "http://sdfsdfsdf.xyz/address/selectAddress",
         dataType: "json",
         data: {
             userName: username
@@ -198,7 +198,7 @@ $(function () {
 
         $.ajax({
             type: "get",
-            url: 'http://localhost:10086/address/insertAddress',
+            url: 'http://sdfsdfsdf.xyz/address/insertAddress',
             data:{
                 owner, //所属人
                 consignee, //收货人

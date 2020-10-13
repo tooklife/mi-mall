@@ -6,7 +6,7 @@ function commit(that) {
     console.log(typeof(username));
     if (username != '' && password != ''){
         $.ajax({
-        	url: 'http://localhost:10086/user/login',
+        	url: 'http://sdfsdfsdf.xyz/user/login',
         	type: 'get',
         	dataType: 'json',
         	data: {
@@ -67,7 +67,7 @@ $(function () {
         if (e && e.keyCode == 13) {
             if (username != '' && password != '') {
                 $.ajax({
-                    url: 'http://localhost:10086/user/login',
+                    url: 'http://sdfsdfsdf.xyz/user/login',
                     type: 'get',
                     dataType: 'json',
                     data: {
